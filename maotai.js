@@ -74,7 +74,7 @@ function submitOrder(){
 	if( dDate.getHours() < 10 ){
 		dDate.setHours(9,59,59.2);
 	}else{
-		dDate.setHours(17,38,59.2);
+		dDate.setHours(17,42,59.2);
 	}
 	
 	//dDate.setSeconds( dDate.getSeconds() + 10 );
