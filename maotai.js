@@ -74,7 +74,7 @@ function submitOrder(){
 	if( dDate.getHours() < 10 ){
 		dDate.setHours(9,59,59.2);
 	}else{
-		dDate.setHours(19,59,59.2);
+		dDate.setHours(17,35,00.2);
 	}
 	
 	//dDate.setSeconds( dDate.getSeconds() + 10 );
@@ -82,9 +82,6 @@ function submitOrder(){
 //进入时间判断循环
 function enterTimeCheckLoop(callback){
 	var date = new Date();
-	
-	
-	
 	
 	var diff = Date.parse(dDate) - Date.parse(date) ;
 	
